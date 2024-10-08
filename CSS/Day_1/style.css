@@ -1,0 +1,13 @@
+h1 {
+  background-color: red;
+  color: yellow;
+}
+.external {
+  color: blue;
+  background-color: bisque;
+}
+
+p {
+  background-color: burlywood;
+  color: deeppink;
+}

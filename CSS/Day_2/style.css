@@ -1,0 +1,11 @@
+audio {
+  width: 500px;
+  object-fit: cover;
+  background-color: black;
+}
+
+video {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
