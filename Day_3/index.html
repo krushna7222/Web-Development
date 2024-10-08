@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <style>
+      /* This Are Only Most Used Selector */
+
+      /* Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* Class Selector */
+      .red {
+        background-color: red;
+      }
+      /* Id Selector */
+      #green {
+        background-color: green;
+      }
+      /* Direct child selector */
+      div > p {
+        color: black;
+        background-color: rgb(42, 165, 91);
+      }
+      /* Desendent Selector */
+      div span {
+        color: white;
+        background-color: rgb(47, 0, 255);
+      }
+      /* Pseudo-Selector */
+      a:visited {
+        color: hotpink;
+      }
+      a:link {
+        color: green;
+      }
+      a:active {
+        background-color: red;
+      }
+      a:hover {
+        font-size: 30px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">
+      I am Div
+      <p>I Am Paragraph Inside The Divb</p>
+      <article>
+        <span>
+          I Am Span I Am Insede Article And Article Is Inside The Div
+        </span>
+      </article>
+    </div>
+    <div id="green">I am Another div</div>
+    <a href="https://www.google1.com">Go To Google</a>
+    <a href="https://www.google2.com">Go To Google</a>
+    <a href="https://www.google2.com">Go To Google</a>
+  </body>
+</html>

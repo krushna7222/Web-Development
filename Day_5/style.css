@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  /* text-decoration-style: dashed; */
+  text-decoration-thickness: 5px;
+  text-decoration-color: chartreuse;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  /* text-transform: capitalize;
+    text-transform: lowercase; */
+}
+p {
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  text-indent: 30px;
+}
+.style {
+  border: 2px solid red;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* overflow: scroll; */
+  word-break: break-all;
+  /* word-break: keep-all; */
+}
