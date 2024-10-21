@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Types In JavaScript</title>
+  </head>
+  <body>
+    <script>
+      //define the variables
+      //primitive Datatypes
+      let id = 50;
+      let myName = "Krushna Shahane";
+      let mNo = 8574851425;
+      let isStudent = true;
+      let cgpa = 7.5;
+      let address = "Pune, Maharashtra, India";
+      let classRoom;
+      let age = null;
+
+      //define the type of variables
+      console.log(id, myName, isStudent, cgpa, address, classRoom, age);
+      console.log(
+        "name : " + typeof id,
+        ",Myname : " + typeof myName,
+        ",isStudent : " + typeof isStudent,
+        ",cgpa : " + typeof cgpa,
+        ",address : " + typeof address,
+        ",classRoom : " + typeof classRoom,
+        ",age : " + typeof age
+      );
+
+      //Non-Primitive datatypes also call objects
+
+      let MyBio = {
+        name: "Krushna Shahane",
+        MNo: 7845254145,
+        age: 22,
+        address: "Pune, Maharashtra, India",
+        isStudent: true,
+        Education: "Graduated",
+      };
+
+      console.log(MyBio);
+      console.log("Type Os MyBio is :  " + typeof MyBio);
+    </script>
+  </body>
+</html>
